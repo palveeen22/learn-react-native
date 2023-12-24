@@ -1,5 +1,5 @@
 import React from "react";
-import { Dimensions, SafeAreaView, Button } from "react-native";
+import { Dimensions, SafeAreaView, Button, Image } from "react-native";
 import styled from "styled-components/native";
 
 const { width, height } = Dimensions.get("window");
@@ -60,18 +60,21 @@ const Home = () => {
     <Container>
       <SafeAreaView style={{ flex: 1 }}>
         {/* box top */}
-        <Card>
+        {/* <Card>
           <BoxTop>
             <TextTop>Ini top</TextTop>
           </BoxTop>
-        </Card>
+        </Card> */}
         {/* box flex selanjutnya */}
-        <BoxOne>
+        {/* <BoxOne>
           <Title>Box 1!</Title>
         </BoxOne>
         <BoxOne>
           <Title> Box2 !</Title>
-        </BoxOne>
+        </BoxOne> */}
+        {/* <BoxOne>
+          <Image source={require("../assets/empty.png")} />
+        </BoxOne> */}
         <ButtonBlock>
           <ButtonGround>
             <Button
